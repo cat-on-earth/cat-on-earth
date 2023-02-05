@@ -3,9 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
+  <title>dua</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  
+    <script language="javascript" type="text/javascript">
+      function OnButtonClick() {
+          target = document.getElementById("ENG-output");
+          target.innerHTML = "Penguin";
+      }
+    </script>
 </head>
 <body>
   <p>でゅあさまのページ（A page of DUA）</p><br>
@@ -13,6 +20,11 @@
   
   <p>青い目をしたとても可愛らしい三毛猫さんです。</p>
   <p>握手をさせてくれる猫さんでした。</p><br>
+
+  
+  <input type="button" value="ENGLISH" onclick="OnButtonClick();"/><br />
+  <br />
+  <div id="ENG-output"></div>
   
   <a href="index.html">TOP PAGE</a><br>
   
