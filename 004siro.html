@@ -6,6 +6,12 @@
   <title>SIRO</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <script language="javascript" type="text/javascript">
+      function OnButtonClick() {
+          var target = document.getElementById("ENG-output");
+          target.innerHTML = "Climbing from the side<br><br>I'm surprised by the SIRO's motor nerves.<br>";
+      }
+    </script>
 </head>
 <body>
   <h3>しろさまのページ（A page of SIRO）</h3><br>
@@ -13,6 +19,10 @@
   
   <p>横からよじ登り中</p>
   <p>猫さんの運動神経には驚かされます。</p><br>
+  
+  <input type="button" value="ENGLISH" onclick="OnButtonClick();"/><br />
+  <br />
+  <div id="ENG-output"></div>
   
   <a href="index.html">TOP PAGE</a><br>
   
